@@ -1,11 +1,13 @@
 import React from "react";
 import Card from "./Card";
 import contacts from "../contacts";
+import Avatar from "./Avatar";
 
 function App() {
   return (
     <div>
-      <h1 className="heading">My Contacts</h1>
+      <h1 className="heading">Contact Us</h1>
+      <Avatar img="https://media.licdn.com/dms/image/D4D03AQECh49GnvuIyA/profile-displayphoto-shrink_800_800/0/1667118829213?e=2147483647&v=beta&t=ylMg9Lgwguu_IBaks_wl8njjtsmWLr_mkVBr9-6qh50" />
 
       <Card
         name={contacts[0].name}
@@ -30,3 +32,12 @@ function App() {
 }
 
 export default App;
+
+/* 
+img file ta contacts.jsx theke app.jsx e asche
+app.jsx theke card.js e jacche img ta
+ebar ami chaichi avatar/img r jonno  aar ekta img.jsx banate
+jate card.jsx theke image.jsx e img ta jaye
+
+
+*/
